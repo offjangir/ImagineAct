@@ -1,0 +1,204 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.pickle
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+conda_env/
+.conda/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Logs and outputs
+log/
+logs/
+*.log
+wandb/
+tensorboard/
+runs/
+experiments/logs/
+rollouts/
+
+# Checkpoints and models
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.safetensors
+models/
+checkpoint*/
+checkpoint_*
+*_checkpoint/
+*_checkpoints/
+
+# Datasets
+datasets/
+data/
+*.tfrecord
+*.tfrecords
+*.npz
+*.npy
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.png
+*.jpeg
+feature_cache/
+cache/
+.cache/
+
+# Compiled files
+*.o
+*.a
+*.dylib
+*.dll
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project-specific
+Randomized-Return-Decomposition/log/
+Randomized-Return-Decomposition/wandb/
+Randomized-Return-Decomposition/log/
+Randomized-Return-Decomposition/__pycache__/
+Randomized-Return-Decomposition/*.egg-info/
+
+openvla/experiments/logs/
+openvla/rollouts/
+openvla/*.egg-info/
+openvla/__pycache__/
+
+world-model-eval-babel/__pycache__/
+world-model-eval-babel/*.egg-info/
+world-model-eval-babel/n_clips_*/
+world-model-eval-babel/rollouts/
+world-model-eval-babel/libero_eval_dataset/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Weights & Biases
+wandb/
+.wandb/
+
+# TensorBoard
+tensorboard/
+runs/
+events.out.tfevents.*
+
+# Feature caches
+*_features_*.pkl
+feature_cache/
+openvla_features_*.pkl
+
+# Evaluation outputs
+eval_videos/
+eval_outputs/
+evaluation_results/
+
+# Environment variables
+.env
+.env.local
+
+# Large model files (if not using LFS)
+*.bin
+*.safetensors
+*.onnx
+
+# Ray results
+ray_results/
+
+# Hydra outputs
+outputs/
+multirun/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Profiling
+*.prof
+*.lprof
+
+# CUDA
+*.cubin
+
+# SLURM
+slurm-*.out
+*.slurm
+
+# VSCode workspace
+*.code-workspace
+

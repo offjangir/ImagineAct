@@ -1,0 +1,35 @@
+# PyTorch Dependencies for RRD Algorithm
+# Install with: pip install -r requirements_pytorch.txt
+
+# Core PyTorch
+# Note: For RTX 6000 Ada (sm_89), need PyTorch with CUDA 12.1+ support
+# Install with: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.0.0
+torchvision>=0.15.0
+
+# TensorBoard for logging
+tensorboard>=2.10.0
+
+# NumPy
+# Note: numpy>=1.24 removed deprecated aliases like bool8
+# Pin to <1.24 for compatibility with gym/mujoco_py
+numpy>=1.21.0,<1.24.0
+
+# OpenCV (for Atari environments)
+opencv-python>=4.5.0
+
+# Gym for RL environments
+# Pin to 0.21.0 for mujoco_py compatibility (newer versions may have issues)
+gym==0.21.0
+
+# Termcolor and beautifultable for logging
+termcolor>=2.0.0
+beautifultable>=1.0.0
+
+# Optional: For CUDA support, use:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# Note: You may also need environment-specific dependencies:
+# - mujoco-py (for MuJoCo environments)
+# - atari-py (for Atari environments)
+
