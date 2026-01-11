@@ -10,6 +10,13 @@ This project addresses the challenge of training VLA models that generalize well
 2. **Learned Proxy Rewards**: Video-based reward models trained using Randomized Return Decomposition (RRD) that extract dense reward signals from visual observations
 3. **RL Fine-tuning Pipeline**: An end-to-end system that uses the world model as a simulator and learned rewards to fine-tune VLA policies
 
+## 👥 Contributors
+
+- **Yash Jangir** — offjangir@gmail.com  
+- **Karan Mirakhor** — karanmirakhor99@gmail.com  
+- **Tanya Choudhary** — tchoudha@andrew.cmu.edu  
+- **Prakhar Mishra** — pmishra3@andrew.cmu.edu  
+
 ## 🏗️ Architecture
 
 ```
